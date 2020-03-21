@@ -93,6 +93,10 @@ p {
     color: black;
 }
 
+.navigation a:hover {
+    color: blueviolet;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -207,3 +211,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about img {
+    padding: 0px 0 20px 0;
+}
+
+.about {
+    display:flex;
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+    border-bottom: 2px dotted black;
+}
+
+.container-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.container-about div{
+    width: 350px;
+    border-bottom: 2px dotted black;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.button {
+    text-decoration:none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px 15px;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.work {
+    margin: 40px 0 30px 20px;
+}
+
+.container-about h1 {
+    margin-top: 20px;
+}
+
